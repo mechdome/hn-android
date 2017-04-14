@@ -73,6 +73,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".login.LoginActivity_" android:label="@string/credentials" android:theme="@android:style/Theme.Dialog" />
+        <meta-data android:name="md_remove_ads" android:value="com.manuelmaly.hn.MechDomeAd" />
     </application>
 
 </manifest>

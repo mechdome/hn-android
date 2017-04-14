@@ -10,6 +10,7 @@ import com.manuelmaly.hn.task.HNVoteTask;
 import com.manuelmaly.hn.task.ITaskFinishedHandler;
 import com.manuelmaly.hn.util.FileUtil;
 import com.manuelmaly.hn.util.FontHelper;
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Background;
@@ -209,6 +210,10 @@ public class MainActivity extends BaseListActivity implements
         case R.id.menu_refresh:
             startFeedLoading();
             return true;
+        case R.id.menu_about_mechdome:
+            startActivity(new Intent(MainActivity.this, AboutMechDomeActivity.class));
+            return true;
+
         default:
             return super.onOptionsItemSelected(item);
         }

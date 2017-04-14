@@ -17,4 +17,9 @@
         android:title="@string/about"
         android:icon="@drawable/refresh"
         hn:showAsAction="never" />
+
+    <item android:id="@+id/menu_about_mechdome"
+        android:title="@string/about_mechdome"
+        android:icon="@drawable/refresh"
+        hn:showAsAction="never" />
 </menu>

@@ -19,6 +19,7 @@
     <string name="vote_error">Voting failed - have you voted for this before?</string>
     <string name="share_comments_url">Share Comments URL</string>
     <string name="about">About</string>
+    <string name="about_mechdome">About Mechdome</string>
     <string name="someauthor">someauthor</string>
     <string name="loading">Loading &#8230;</string>
     <string name="settings">Settings</string>
